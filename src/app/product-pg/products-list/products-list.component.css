@@ -1,0 +1,15 @@
+.card {
+  margin: 10px 0px;
+  box-shadow: 10px 10px 5px lightblue;
+  /* color: white; */
+}
+.card-img-top {
+  height: 200px;
+  width: 200px;
+  align-self: center;
+}
+
+h5 {
+  font-size: 18px;
+  margin: 0%;
+}

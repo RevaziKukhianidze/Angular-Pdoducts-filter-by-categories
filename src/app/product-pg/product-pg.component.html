@@ -1,0 +1,15 @@
+<section class="col-md-12 cont-max-width d-flex justify-content-between m-auto">
+  <aside class="col-md-3">
+    <h3>კატეგორიები</h3>
+    <hr />
+    <app-product-category
+      (categoryItemEventEmitter)="oncategoryItemSubs($event)"
+      [categories]="categoriesList"
+    ></app-product-category>
+  </aside>
+  <br />
+
+  <aside class="col-md-8 justify-content-between d-flex">
+    <app-products-list [products]="productFilterredArray"></app-products-list>
+  </aside>
+</section>

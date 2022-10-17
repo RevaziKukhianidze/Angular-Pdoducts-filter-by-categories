@@ -1,0 +1,5 @@
+<ul *ngFor="let item of categories" class="list-group">
+  <li (click)="onCategoriesClick(item)" class="list-group-item">
+    {{ item.Name }}
+  </li>
+</ul>

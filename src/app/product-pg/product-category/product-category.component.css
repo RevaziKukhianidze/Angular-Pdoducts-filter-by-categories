@@ -1,0 +1,12 @@
+li {
+  background-color: rgb(229, 233, 237);
+  border: 0;
+  color: #2b1c10;
+  cursor: pointer;
+}
+li {
+  transition: all 0.5s;
+}
+li:hover {
+  background-color: cadetblue;
+}
